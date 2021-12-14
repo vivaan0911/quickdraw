@@ -1,0 +1,54 @@
+body{
+    background-color: lightblue;
+}
+
+h1 {
+    color: yellow;
+    background-color: red;
+    border: 5px white dashed;
+    font-size: 35px;
+}
+
+#label{
+    color: red;
+    font-size: 20px;
+}
+
+#confidence{
+    color: red;
+    font-size: 20px;
+}
+
+#sketch_to_be_drawn{
+    color: purple;
+    font-size: 20px;
+}
+
+#score{
+    color: coral;
+    font-size: 20px;
+}
+
+#timer{
+    color: coral;
+    font-size: 20px;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas {
+    border: 10px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 300px;
+}
+
+@keyframes example {
+    from{box-shadow: 4px 4px 38px blue;}
+    
+    to{box-shadow: 4px 4px 38px pink;}
+}
